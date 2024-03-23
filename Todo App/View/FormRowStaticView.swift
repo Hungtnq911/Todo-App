@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct RowStaticView: View {
+struct FormRowStaticView: View {
     // MARK: - PROPERTIES
     var icon: String
     var firstText: String
@@ -31,5 +31,5 @@ struct RowStaticView: View {
 }
 
 #Preview {
-    RowStaticView(icon: "gear", firstText: "Application", secondText: "Todo")
+    FormRowStaticView(icon: "gear", firstText: "Application", secondText: "Todo")
 }
