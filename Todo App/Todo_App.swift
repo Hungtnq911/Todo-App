@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct Todo_AppApp: App {
+struct Todo_App: App {
     let persistenceController = PersistenceController.shared
 
     var body: some Scene {
